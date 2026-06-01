@@ -1,0 +1,3 @@
+2026-06-01 17:25:47 | DEBUG    | trading_bot | BasicBot initialized for https://testnet.binancefuture.com
+2026-06-01 17:25:47 | INFO     | trading_bot | REQUEST POST /fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1780334747193, 'recvWindow': 5000}
+2026-06-01 17:25:47 | INFO     | trading_bot | RESPONSE POST /fapi/v1/order status=200 body={'orderId': 39847123, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'executedQty': '0.001', 'avgPrice': '65123.40000', 'type': 'MARKET', 'side': 'BUY', 'price': '0'}
